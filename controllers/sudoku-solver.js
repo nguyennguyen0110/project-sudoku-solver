@@ -2,7 +2,9 @@ class SudokuSolver {
 
   //IMPORTANT: ALWAYS CREATE constructor() METHOD ***********************************************
   constructor() {}
-
+  
+  //This method validate() just use for the tests
+  //I validated puzzle string in api.js already
   validate(puzzleString) {
     if (puzzleString.length != 81) {
       return 'Expected 81 characters';
