@@ -1,5 +1,10 @@
+body {
+  color: white;
+  background: black;
+}
+
 code {
-  background: #d0d0d5;
+  background: rgb(100, 100, 100);
 }
 
 .container {
@@ -79,7 +84,7 @@ td {
 }
 
 .sudoku-input {
-  border: 1px solid black;
+  border: 1px solid white;
   width: 2em;
   height: 2em;
   text-align: center;
